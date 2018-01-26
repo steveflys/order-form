@@ -1,0 +1,48 @@
+<!DOCTYPE.HTML>
+<html>
+  <head>
+    <title>Bus Mall Cart</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+    
+  <body>
+    <section class="navBar">
+        <a href="index.html">Order Page</a>
+        <a href="cart.html">Shopping Cart</a>
+    </section>
+        
+
+    <header>Your Bus Mall Shopping Cart</header>
+    <h1 id="empty"></h1>
+
+    <table id="cart"></table>
+
+    <form id="customer-info">
+        <fieldset>
+            <legend>Customer Information</legend>
+
+            <label for="custFirstName">First Name</label>
+            <input name="custFirstName" type="text">
+            <label for="custLastname">Last Name</label>
+            <input name="custLastName" type="text">
+            <label for="steeetAddress">Street Address</label>
+            <input for="streetAddress" type="text">
+            <label for="cityState">City, State</label>
+            <input for="citySate" type="text">
+            <label for="creditCardNumber">Credit Card Number</label>
+            <input for="creditCardNumber" type="text">
+            <label for="expdate">Expiration Date MO/YEAR</label>
+            <input for="expDate" type="number">
+            <label for="cvn">CVN Code</label>
+            <input for="cvn" type="numbner">
+
+            <button id="submitOrder">Submit Order</button>
+
+        </fieldset>
+    </form>
+
+    <script src="js/cart.js"></script>
+
+  </body>
