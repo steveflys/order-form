@@ -42,9 +42,8 @@ function startPage() {
 }
 
 function orderPlaced(){
-  console.log('submit');
   localStorage.clear();
-  location.reload();
+  
 }
 var customerInfo = document.getElementById('customer-info');
 customerInfo.addEventListener('submit', orderPlaced);
