@@ -2,13 +2,13 @@
 
 
 var orderedProduct = [];
+var cart = document.getElementById('cart');
 
 // var cartItems = document.getElementById('cart');
 
 function startPage() {
   if(localStorage.orderedProduct) {
     orderedProduct = JSON.parse(localStorage.orderedProduct);
-    var cart = document.getElementById('cart');
     for(var i in orderedProduct){
       if(orderedProduct[i].quantity !== 0){
         var trEl = document.createElement('tr');
@@ -40,4 +40,13 @@ function startPage() {
     cartStatus.appendChild(cartEmpty);
   }
 }
+
+function orderPlaced(){
+  console.log('submit');
+  localStorage.clear();
+  location.reload();
+}
+var customerInfo = document.getElementById('customer-info');
+customerInfo.addEventListener('submit', orderPlaced);
+
 startPage();
