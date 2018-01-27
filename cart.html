@@ -10,7 +10,6 @@
   <body>
     <section class="navBar">
         <a href="index.html">Order Page</a>
-        <a href="cart.html">Shopping Cart</a>
     </section>
         
 
@@ -21,22 +20,24 @@
 
     <form id="customer-info">
         <fieldset>
-            <legend>Customer Information</legend>
+            <legend id="legend">Customer Information</legend>
 
             <label for="custFirstName">First Name</label>
-            <input name="custFirstName" type="text">
+            <input name="custFirstName" id="fn" type="text">
             <label for="custLastname">Last Name</label>
-            <input name="custLastName" type="text">
+            <input name="custLastName" id="ln" type="text"><br/>
             <label for="steeetAddress">Street Address</label>
-            <input for="streetAddress" type="text">
+            <input for="streetAddress" id="sa" type="text"><br/>
             <label for="cityState">City, State</label>
-            <input for="citySate" type="text">
+            <input for="citySate" id="ss" type="text">
+            <label for="zip">Zip</label>
+            <input for="zip" id="zip" type="number"><br/>
             <label for="creditCardNumber">Credit Card Number</label>
-            <input for="creditCardNumber" type="text">
+            <input for="creditCardNumber" id="cc" type="number"><br/>
             <label for="expdate">Expiration Date MO/YEAR</label>
-            <input for="expDate" type="number">
+            <input for="expDate" id="ex" type="number">
             <label for="cvn">CVN Code</label>
-            <input for="cvn" type="numbner">
+            <input for="cvn" id="cvn" type="numbner"><br/>
 
             <button id="submitOrder">Submit Order</button>
 

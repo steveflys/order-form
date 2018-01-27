@@ -1,5 +1,6 @@
 'use strict';
 Product.allProducts = [];
+localStorage.order = 'Your cart is empty. Please go to the order page to fill it up.';
 
 var selectEl = document.getElementById('product-select');
 var formEl = document.getElementById('order-form');
