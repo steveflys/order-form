@@ -52,11 +52,6 @@ function orderPlaced(){
   thankYou.textContent = localStorage.order;
   justOrdered.appendChild(thankYou);
 }
-  
-// var deleteItem = function(event){
-//   orderedProduct['button'.id].quantitiy = 0;
-//   localStorage.orderedProduct = JSON.stringify(orderedProduct);
-// };
 
 var customerInfo = document.getElementById('customer-info');
 customerInfo.addEventListener('submit', orderPlaced);

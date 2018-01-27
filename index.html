@@ -1,40 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <title>Order Form</title>
-</head>
-<body>
-  <section class="navBar">
-    <a href="index.html">Order Page</a>
-    <a href="cart.html">Shopping Cart</a>
-  </section>
-
-  <header>
-    <h1>Welcome to Bus-Mall Order Form</h1>
-  </header>
-  <form id = "order-form">
-    <fieldset>
-        <section>
-            <select id = "product-select" name = "productSelect">
-              
-        
-            </select>
-            <input type="number" name="quantity" placeholder="Enter Quantity">
-        
-          </section>
-    </fieldset>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Bus Mall Order</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
       
-    <button id = "submit-btn">Submit Order</button>
+  <body>
 
-  </form>
+    <header>
+      <h1>Welcome to Bus-Mall Order Form</h1>
+    </header>
+    <form id="orderForm">
+      <fieldset>
+        <section id="form">
+          <select id = "select" name = "productSelect"></select>
+          <input id="qty" type="number" name="quantity" placeholder="Quantity">
+        </section>
+      </fieldset>
+      <button id = "submit-btn">Submit Order</button>
+    </form>
+    <section>
+      <div class="cartNav">
+        <img src="img/shopping_cart.png" alt="" id="shopping"/>
+        <a href="cart.html">Shopping Cart</a>
+      </div>
+    </section>
 
-
-  <script src="js/order.js"></script>
-</body>
+    <script src="js/order.js"></script>
+  </body>
 </html>

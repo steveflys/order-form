@@ -2,8 +2,8 @@
 Product.allProducts = [];
 localStorage.order = 'Your cart is empty. Please go to the order page to fill it up.';
 
-var selectEl = document.getElementById('product-select');
-var formEl = document.getElementById('order-form');
+var selectEl = document.getElementById('select');
+var formEl = document.getElementById('form');
 
 var productNames = ['bag', 'banana', 'bathroom', 'boots', 'breakfast', 'bubblegum', 'chair', 'cthulhu', 'dog-duck', 'dragon', 'pen', 'pet-sweep', 'scissors', 'shark', 'sweep', 'tauntaun', 'unicorn', 'usb', 'water-can', 'wine-glass'];
 
