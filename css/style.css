@@ -8,8 +8,9 @@ section.navbar {
 
 div.cartNav {
     color: blue;
-    width: 100px;
+    width: 200px;
     text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 100%;
     display: block;
     position:absolute;
@@ -20,6 +21,7 @@ div.cartNav {
 header {
     margin: 10px;
     color: blue;
+    font-family: 'Acme', sans-serif;
     font-size: 150%;
 }
 
